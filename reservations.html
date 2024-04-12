@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+    <link href="css/grid.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>Welcome to Rooms page</title>
+</head>
+<body>
+    <h1 class="hidden">Welcome to Rooms page</h1>
+
+    <div class="grid-con">
+        <div class="col-start-3 col-span-3" id="back-to-top">
+        <a href="#main-nav"><img src="images/goupicon.png" alt="go up icon"></a>
+        </div>
+    </div>
+
+
+    <header class="grid-con" id="main-header">
+        <nav id="main-nav" class="col-span-full">
+            <h2 class="hidden">Main Navigation</h2>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+            <img src="images/burger.svg" alt="hamburger menu icon">
+            </label>
+            <div id="burger-con">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Dining</a></li>
+                    <li><a href="spa.html">Spa Activites</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="logo" class="col-span-full">
+            <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+        </div>
+    </header>
+
+
+    <section id="homepage3" class="grid-con">
+        <h2 class="hidden">Book a stay with us</h2>
+        <a href="reservations.html" class="col-start-3 col-span-2">
+            <div id="book-now-hero" class="book-now col-start-3 col-span-2">
+                <p>Book Now</p>
+            </div>
+        </a>                     
+        <section id="hero-heading-box" class="col-span-full">
+            <h2 class="hero-img-h2">
+                <span>Couples Resort </span><br>Secure Your Vacation with Reservations
+            </h2>
+        </section>
+    </section>
+       
+    <div class="grid-con">
+        <section id="hero-summary" class="col-span-full line-separator">
+            <h2 class="hidden">Summary of our Facilities</h2>
+            <p>Welcome to our Reservation Page!</p>
+            <p>We are delighted to assist you in planning your stay with us. Whether you’re seeking a relaxing getaway, a romantic escape, or an adventure-filled vacation, our resort offers a range of accommodations and amenities to ensure a memorable experience. From luxurious rooms and spa treatments to exciting outdoor activities and gourmet dining options, we strive to make your stay unforgettable. Please browse through our reservation options and feel free to reach out to our team for any assistance. We look forward to welcoming you soon!</p>
+        </section>
+    </div>
+
+
+    <section id="contactform-hero-con" class="grid-con">             
+        <div id="contactform-heading-box" class="col-span-full">
+            <h3 class="hero-img-h3"><span>Couples Resort </span><br>CONTACT FORM</h3>
+        </div> 
+    </section>
+
+    <section class="grid-con">
+        <h2 class="hidden">Contact Information</h2>
+        <div id="contact-hero-text" class="line-separator col-span-full">
+            <p>We appreciate your interest in discovering more about our resort, known as Ontario’s top destination for couples seeking reconnection. To inquire about reservations or gain additional details, kindly fill out the contact form provided below. Alternatively, you may contact us directly via our toll-free number, as listed below, for personalized assistance.</p>
+        </div>
+        <div id="contact-hero-address" class="col-span-full">          
+            <h3>Couples Resort (Inc.)</h3>
+            <p>1198 Osprey Rd, (End of)<br>
+            Minden, Soyers Lake, ON, <br>K0M 2K0</p>
+            <h3 class="hidden">Phone, Fax and Email</h3>
+            <p>Toll Free:+1 877 201-1156<br>
+                FAX:+1 613 638 2217<br>
+                E-mail: info[at]coupleresort.com </p>         
+        </div>
+        <div id="contact-hero-form" class="col-span-full">
+
+            <form action="#" method="post" enctype="text/plain">
+                <input name="fullName" type="text" required placeholder="First & Last Name">
+                <input name="contactInfo" type="text" required placeholder="Email and Phone Number">
+                <textarea name="msg" placeholder="Enter your comments here"></textarea>
+                <div id="checkbox">
+                    <input type="checkbox" class="checkbox" required><span>Receive our new information, discount and update on our promotion</span>
+                </div>
+                <button name="submit" type="submit" value="Send"><span>Submit</span></button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer" class="grid-con">        
+        <section id="footer-contact-info" class="col-span-full">
+            <h3>Couples Resort</h3>
+            <p>1198 Osprey Rd, (End of)<br>
+                Minden, Soyers Lake, ON, <br>
+                K0M 2K0
+            </p>
+            <p>
+                Toll Free:+1 877 201-1156<br>
+                FAX:+1 613 638 2217<br>
+                E-mail: info@coupleresort.com
+            </p>
+        </section>
+        <div id="footer-privacy" class="col-span-full line-separator">
+            <p id="price-policy">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. Please call to confirm services, availability and pricing. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
